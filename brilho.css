@@ -1,0 +1,34 @@
+
+
+/* Quando se quer formatar uma tag, precisa-se apenas chamar o nome da tag, porém quando se chama uma classe, se coloca um ponto ".", antes do nome da classe. */
+
+
+.menu{
+display: flex;
+margin-left: auto;
+margin-right: auto;
+width: 85%;
+background-color: rgb(141, 219, 250);
+overflow: hidden;
+
+}
+ 
+div{
+
+box-align: center;
+
+}
+
+
+ul ul{
+
+list-style: none;
+position: relative;
+
+}
+
+ul li{
+width: 150px;
+float: left;
+
+}
