@@ -13,21 +13,22 @@ overflow: hidden;
 
 }
  
-div{
+.menu div{
 
 box-align: center;
 
 }
 
 
-ul ul{
-
+.menu ul ul{
+text-align: center;
 list-style: none;
 position: relative;
 
 }
 
-ul li{
+.menu ul li{
+ text-align: center;
 width: 150px;
 float: left;
 
