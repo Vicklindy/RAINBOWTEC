@@ -1,74 +1,83 @@
 /* Quando se quer formatar uma tag, precisa-se apenas chamar o nome da tag, porém quando se chama uma classe, se coloca um ponto ".", antes do nome da classe. */
 
-
-
-.vickbody {
-    background-image: linear-gradient(rgb(166, 255, 255), rgb(255, 254, 168), rgb(244, 181, 250));
+body {
+    background-image: linear-gradient(rgb(110, 241, 241), rgb(250, 248, 133), rgb(241, 144, 250));
 }
 
-
 header {
-    background-image: url(fundoarco.jpeg);
+    background-image: url(faixaarco1.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 99%;
-
+    padding: 20px;
+    text-align: center;
 }
 
-.menu {
+.nav {
     display: flex;
     margin-left: auto;
     margin-right: auto;
     width: 85%;
-    background-color: rgb(245, 117, 234);
+    background-color: rgb(93, 45, 224);
     overflow: hidden;
     text-align: center;
-    padding: 10 px;
+    padding: 25 px;
 }
 
-
-
-.div {
-    ;
+.nav a {
+    float: none;
+    display: inherit;
+    color: #f4f5c9;
+    text-align: left;
+    padding: 10px 10px;
+    text-decoration: rgb(190, 0, 228);
 }
 
-
-
-.opiniao {
-    box-align: center;
-    left: 20px;
+.nav a:hover_maior {
+    background-color: rgb(175, 56, 56);
+    color: black;
 }
 
 .opiniao1 {
-    box-align: right;
+    width: 50%;
+    margin-left: 50%;
+    display: flex;
+    background-color: rgb(250, 255, 226);
+    box-align: center;
     left: 20px;
-
-   
+    font-style: italic;
 }
 
-
-.menu ul {
+.nav ul {
     text-align: center;
     list-style: none;
     position: relative;
-
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.menu ul li {
+.nav ul li {
     text-align: center;
-    width: 250px;
+    width: 260px;
     float: left;
-
 }
 
+h2 {
+    text-align: center;
+    color: rgb(252, 69, 69);
+}
 
-
-
+section {
+    display: block;
+    background-color: rgb(194, 196, 247);
+    size: px;
+    width: 1000px;
+}
 
 
 /* Configurando o corpo */
-.Rob_body {
 
+.Rob_body {
     /*background-image: linear-gradient(rgb(9, 137, 211), rgb(223, 238, 243), rgb(14,14,14)); */
     /*background-image: linear-gradient(210deg, rgb(35, 46, 206), rgb(147, 158, 211) ); */
     background-image: url(Paisagem_coqueiro_e_mar.jpg);
@@ -81,7 +90,9 @@ header {
     padding-right: 95px;
 }
 
+
 /* Definição do Header */
+
 .Rob_header {
     background-color: #a7bbc4;
     text-align: center;
@@ -90,12 +101,15 @@ header {
 
 
 /* A caixa de navegação - Menu */
+
 .Rob_menu {
     overflow: hidden;
     background-color: #333;
 }
 
+
 /* Links de navegação */
+
 .Rob_menu a {
     float: none;
     display: inherit;
@@ -105,7 +119,9 @@ header {
     text-decoration: cornflowerblue;
 }
 
+
 /* Links - trocar a cor ao passar o mouse */
+
 .Rob_menu a:hover_maior {
     background-color: rgb(175, 56, 56);
     color: black;
@@ -116,7 +132,6 @@ header {
     background-color: rgb(174, 195, 243);
     size: 800px;
     width: 800px;
-
 }
 
 .Rob_section_menor {
@@ -136,8 +151,6 @@ header {
     background-color: rgb(77, 70, 99);
     border: rgb(45, 6, 95);
     border-style: double;
-
-
 }
 
 .Rob_aside_filial {
