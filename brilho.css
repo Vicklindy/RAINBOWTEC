@@ -1,10 +1,17 @@
 /* Quando se quer formatar uma tag, precisa-se apenas chamar o nome da tag, porém quando se chama uma classe, se coloca um ponto ".", antes do nome da classe. */
 
-body {
+.vickbody { 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: 30px 30px;
+    padding-bottom: 45;
+    padding-left: 95px;
+    padding-right: 95px;
     background-image: linear-gradient(rgb(110, 241, 241), rgb(250, 248, 133), rgb(241, 144, 250));
 }
 
-header {
+.vickheader {
     background-image: url(faixaarco1.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -13,74 +20,127 @@ header {
     text-align: center;
 }
 
-.nav {
+.vicknav {
+    overflow: hidden;
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    width: 85%;
+    width: 100%;
     background-color: rgb(93, 45, 224);
     overflow: hidden;
     text-align: center;
     padding: 25 px;
+    height: 50px;
 }
 
-.nav a {
+.vicknav a {
     float: none;
-    display: inherit;
-    color: #f4f5c9;
-    text-align: left;
+    display: block;
+    color: #000000;
+    text-align: center;
     padding: 10px 10px;
-    text-decoration: rgb(190, 0, 228);
+    text-decoration:none;
+    
 }
 
-.nav a:hover_maior {
-    background-color: rgb(175, 56, 56);
-    color: black;
-}
 
-.opiniao1 {
-    width: 50%;
-    margin-left: 50%;
-    display: flex;
-    background-color: rgb(250, 255, 226);
-    box-align: center;
-    left: 20px;
-    font-style: italic;
-}
 
-.nav ul {
+.vicknav ul {
     text-align: center;
     list-style: none;
     position: relative;
     margin-left: auto;
     margin-right: auto;
+
+}
+.vicknav ul ul{
+  position: absolute;
+  visibility: hidden;
 }
 
-.nav ul li {
+
+
+.vicknav ul li {
     text-align: center;
     width: 260px;
     float: left;
+    list-style: none;
+    background-image:linear-gradient(rgb(36, 255, 255), rgb(240, 237, 64), rgb(247, 58, 99));
+    visibility: visible;
 }
 
-h2 {
-    text-align: center;
-    color: rgb(252, 69, 69);
-}
-
-section {
+.text1 {
     display: block;
     background-color: rgb(194, 196, 247);
-    size: px;
-    width: 1000px;
+    size: 200 px;
+    width: 1055px;
 }
 
 
-/* Configurando o corpo */
 
-.Rob_body {
-    /*background-image: linear-gradient(rgb(9, 137, 211), rgb(223, 238, 243), rgb(14,14,14)); */
-    /*background-image: linear-gradient(210deg, rgb(35, 46, 206), rgb(147, 158, 211) ); */
-    background-image: url(Paisagem_coqueiro_e_mar.jpg);
+.vickdivtext1{
+
+    width: 100%;
+    background-color: rgb(221, 155, 155);
+
+}
+
+.vickopiniao1 {
+    text-align: center;
+    display: table-cell;
+    float: left;
+    width: 50%;
+    margin-left: 60%;
+    background-color: rgb(255, 231, 231);
+    box-align: auto;
+    font-style: italic;
+}
+
+.vickdivtext2{
+    display: flex;
+    float: left;
+    width: 60%;
+    margin-top: -245px;
+    background-color: rgb(166, 209, 156);
+
+}
+
+.vickdivtext3{
+    display: table-cell;
+    background-color: rgb(155, 181, 221);
+    width: 60%;
+    margin-top: 200px;
+
+    
+}
+
+h1 {
+    text-align: center;
+    color: rgb(204, 39, 245);
+}
+
+h2{
+    text-align: center;
+    color: rgb(39, 26, 212);
+}
+h3{
+    color: rgb(0, 0, 0);
+}
+
+ a {
+    color: rgb(255, 230, 0);
+}
+
+.conh3 {
+    margin-left: 70%;
+    float: left;
+    color: floralwhite;
+}
+
+
+
+
+.visaobody { 
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
@@ -88,58 +148,110 @@ section {
     padding-bottom: 45;
     padding-left: 95px;
     padding-right: 95px;
+    background-image: linear-gradient(rgb(110, 241, 241), rgb(250, 248, 133), rgb(241, 144, 250));
 }
 
-
-/* Definição do Header */
-
-.Rob_header {
-    background-color: #a7bbc4;
-    text-align: center;
+.visaoheader {
+    background-image: url(faixaarco1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 99%;
     padding: 20px;
+    text-align: center;
 }
 
-
-/* A caixa de navegação - Menu */
-
-.Rob_menu {
+.visaonav {
     overflow: hidden;
-    background-color: #333;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background-color: rgb(93, 45, 224);
+    overflow: hidden;
+    text-align: center;
+    padding: 25 px;
+    height: 50px;
 }
 
-
-/* Links de navegação */
-
-.Rob_menu a {
+.visaonav a {
     float: none;
-    display: inherit;
-    color: #f2f2f2;
-    text-align: left;
+    display: block;
+    color: #000000;
+    text-align: center;
     padding: 10px 10px;
-    text-decoration: cornflowerblue;
+    text-decoration:none;
+    
 }
 
 
-/* Links - trocar a cor ao passar o mouse */
 
-.Rob_menu a:hover_maior {
-    background-color: rgb(175, 56, 56);
-    color: black;
+.visaonav ul {
+    text-align: center;
+    list-style: none;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.visaonav ul ul{
+  position: absolute;
+  visibility: hidden;
 }
 
-.Rob_NAV {
-    display: block;
-    background-color: rgb(174, 195, 243);
-    size: 800px;
-    width: 800px;
+
+
+.visaonav ul li {
+    text-align: center;
+    width: 260px;
+    float: left;
+    list-style: none;
+    background-image:linear-gradient(rgb(36, 255, 255), rgb(240, 237, 64), rgb(247, 58, 99));
+    visibility: visible;
 }
 
-.Rob_section_menor {
-    display: block;
-    background-color: rgb(194, 196, 247);
-    size: 600px;
-    width: 600px;
+
+
+
+
+.visaoopiniao2{
+    text-align-last:auto ;
+    width: 70%;
+    background-color: cadetblue;
 }
+
+.visaotext1{
+    background-color: cornflowerblue;
+}
+
+.visaotext2{
+    display: flex;
+    float: left;
+    width: 60%;
+    margin-top: -125px;
+    width:60% ;
+    background-color: darkgray;
+}
+
+.visaoopiniao3{
+    margin-top: auto;
+    text-align: center;
+    display: table-cell;
+    float: left;
+    width: 45%;
+    margin-left: 60%;
+    background-color: darkolivegreen;
+}
+
+.visaotext3{
+    background-color: darkorange;
+}
+
+.visaotext4{
+    margin-top:  auto;
+    background-color: darkslateblue;
+}
+
+
 
 .Rob_aside {
     width: 28%;
@@ -175,35 +287,4 @@ section {
     /* Alto relevo*/
     text-shadow: 2px 2px white, -2px -2px #444;
     /* Baixo relevo*/
-}
-
-.rawmenu {
-    width: 100%;
-    height: 50px;
-}
-
-.rawmenu ul {
-    list-style: none;
-    position: relative;
-}
-
-.rawmenu ul li {
-    width: 150px;
-    float: left;
-}
-
-.rawmenu a {
-    padding: 15px;
-    display: block;
-    text-decoration: none;
-    text-align: center;
-}
-
-.rawmenu ul ul {
-    position: absolute;
-    visibility: hidden;
-}
-
-.rawmenu ul li:hover ul {
-    visibility: visible;
 }
