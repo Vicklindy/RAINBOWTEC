@@ -11,7 +11,7 @@
     background-image: linear-gradient(rgb(110, 241, 241), rgb(250, 248, 133), rgb(241, 144, 250));
 }
 
-.vickheader {
+.vickhearder {
     background-image: url(faixaarco1.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -71,7 +71,6 @@
 
 .text1 {
     display: block;
-    background-color: rgb(194, 196, 247);
     size: 200 px;
     width: 1055px;
 }
@@ -81,7 +80,7 @@
 .vickdivtext1{
 
     width: 100%;
-    background-color: rgb(221, 155, 155);
+    
 
 }
 
@@ -91,7 +90,7 @@
     float: left;
     width: 50%;
     margin-left: 60%;
-    background-color: rgb(255, 231, 231);
+    
     box-align: auto;
     font-style: italic;
 }
@@ -101,13 +100,13 @@
     float: left;
     width: 60%;
     margin-top: -245px;
-    background-color: rgb(166, 209, 156);
+   
 
 }
 
 .vickdivtext3{
     display: table-cell;
-    background-color: rgb(155, 181, 221);
+    
     width: 60%;
     margin-top: 200px;
 
@@ -257,6 +256,112 @@ h3{
     float: left;
     margin-top:  auto;
     background-color: darkslateblue;
+}
+
+
+.sobrebody { 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: 30px 30px;
+    padding-bottom: 45;
+    padding-left: 95px;
+    padding-right: 95px;
+    background-image: linear-gradient(rgb(110, 241, 241), rgb(250, 248, 133), rgb(241, 144, 250));
+}
+
+.sobreheader {
+    background-image: url(faixaarco1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 99%;
+    padding: 20px;
+    text-align: center;
+}
+
+.sobrenav {
+    overflow: hidden;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background-color: rgb(93, 45, 224);
+    overflow: hidden;
+    text-align: center;
+    padding: 25 px;
+    height: 50px;
+}
+
+.sobrenav a {
+    float: none;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration:none;
+    
+}
+
+
+
+.sobrenav ul {
+    text-align: center;
+    list-style: none;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.sobrenav ul ul{
+  position: absolute;
+  visibility: hidden;
+}
+
+
+
+.sobrenav ul li {
+    text-align: center;
+    width: 260px;
+    float: left;
+    list-style: none;
+    background-image:linear-gradient(rgb(36, 255, 255), rgb(240, 237, 64), rgb(247, 58, 99));
+    visibility: visible;
+}
+
+.sobreopiniao1{
+    margin-top: auto;
+    text-align: center;
+    display: table-cell;
+    float: left;
+    width: 40%;
+    margin-left: 68%;
+background-color: aqua;
+
+}
+
+
+.sobretext1{
+    float: left;
+    width: 50%%;
+    background-color: rgb(0, 255, 136);
+}
+
+.sobreopiniao2{
+    width: 60%;
+    float: left;
+    text-align: center;
+    background-color: rgb(137, 235, 117);
+}
+
+.sobretext2{
+    background-color: rgb(236, 238, 104);
+}
+
+.sobreopiniao3{
+    background-color: rgb(250, 131, 101);
+}
+.sobretext3{
+    background-color: rgb(238, 146, 233);
 }
 
 
