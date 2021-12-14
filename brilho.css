@@ -243,10 +243,18 @@ h3{
 }
 
 .visaotext3{
+    margin-top: auto;
+    text-align: left;
+    display: table-cell;
+    float: left;
     background-color: darkorange;
 }
 
 .visaotext4{
+    
+    text-align: center;
+    display: table-cell;
+    float: left;
     margin-top:  auto;
     background-color: darkslateblue;
 }
