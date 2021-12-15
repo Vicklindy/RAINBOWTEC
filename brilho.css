@@ -9,6 +9,7 @@
     padding-left: 95px;
     padding-right: 95px;
     background-image: linear-gradient(rgb(110, 241, 241), rgb(250, 248, 133), rgb(241, 144, 250));
+  
 }
 
 .vickhearder {
@@ -402,7 +403,110 @@ a {
   
 }
 .sobretext3{
-   
+
+}
+
+
+
+.fimbody { 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: 30px 30px;
+    padding-bottom: 45;
+    padding-left: 95px;
+    padding-right: 95px;
+    background-image: linear-gradient(rgb(110, 241, 241), rgb(250, 248, 133), rgb(241, 144, 250));
+}
+
+.fimheader {
+    background-image: url(faixaarco1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 99%;
+    padding: 20px;
+    text-align: center;
+}
+
+.fimnav {
+    overflow: hidden;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background-color: rgb(93, 45, 224);
+    overflow: hidden;
+    text-align: center;
+    padding: 25 px;
+    height: 50px;
+}
+
+.fimnav a {
+    float: none;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration:none;
+    
+}
+
+
+
+.fimnav ul {
+    text-align: center;
+    list-style: none;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.fimnav ul ul{
+  position: absolute;
+  visibility: hidden;
+}
+
+
+
+.fimnav ul li {
+    text-align: center;
+    width: 260px;
+    float: left;
+    list-style: none;
+    background-image:linear-gradient(rgb(36, 255, 255), rgb(240, 237, 64), rgb(247, 58, 99));
+    visibility: visible;
+}
+
+
+
+.fimtext1{
+    margin-bottom: 5%;
+    background-color: #fa4b4b;
+}
+
+.fimopiniao2{
+
+    width: 40%;
+    margin-left: 68%;
+    background-color: #4ab893;
+}
+
+.fimtext2{
+
+    margin-top: -8% ;
+    width: 65%;
+    background-color: #fa4be3;
+}
+
+.fimopiniao3{
+    margin-top: -2% ;
+    margin-left: 82%;
+    width: 25%;
+    background-color: #e0fa4b;
+}
+.fimtext3{
+
+    background-color: #113f3d;
 }
 
 
