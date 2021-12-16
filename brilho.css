@@ -81,12 +81,12 @@
 .vickdivtext1{
 
     width: 100%;
-    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 
 .vickopiniao1 {
-    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 50%;
     margin-left: 60% ;
     color: crimson;
@@ -98,16 +98,14 @@
     float: left;
     width: 60%;
     margin-top: -245px;
-   
-
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .vickdivtext3{
     display: table-cell;
-    
     width: 60%;
     margin-top: 200px;
-
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
 }
 
@@ -134,7 +132,7 @@ h2{
 
 
  .h3sobre2{
-    color: rgb(224, 240, 0);
+    color: rgb(126, 134, 15);
 }
 
 .h3sobre3{
@@ -150,6 +148,12 @@ h2{
 
 .h3visao2{
     color: rgb(30, 44, 243); 
+}
+
+.fimm{
+ text-align: center;
+ background-color: rgb(243, 240, 42);
+ color: blueviolet;
 }
 
 h4{
@@ -245,10 +249,11 @@ a {
 .visaoopiniao2{
     text-align-last:auto ;
     width: 70%;
-    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .visaotext1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 
@@ -258,7 +263,7 @@ a {
     width: 60%;
     margin-top: -125px;
     width:60% ;
-    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .visaoopiniao3{
@@ -268,7 +273,7 @@ a {
     float: left;
     width: 45%;
     margin-left: 60%;
-   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
 
@@ -278,7 +283,7 @@ a {
     text-align: left;
     display: table-cell;
     float: left;
-   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .visaotext4{
@@ -287,7 +292,7 @@ a {
     display: table-cell;
     float: left;
     margin-top:  auto;
-    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
@@ -367,7 +372,7 @@ a {
     float: left;
     width: 40%;
     margin-left: 68%;
- 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 
@@ -377,7 +382,7 @@ a {
     margin-bottom: -10% ;
     float: left;
     width: 70%;
-   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .sobreopiniao2{
@@ -385,12 +390,12 @@ a {
     width: 35%;
     float: left;
     text-align: center;
-  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .sobretext2{
     width: 70%;
-    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .sobreopiniao3{
@@ -400,10 +405,10 @@ a {
     width: 60%;
     float: left;
     text-align: center;
-  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .sobretext3{
-
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
@@ -481,32 +486,33 @@ a {
 
 .fimtext1{
     margin-bottom: 5%;
-    background-color: #fa4b4b;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .fimopiniao2{
-
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 40%;
     margin-left: 68%;
-    background-color: #4ab893;
+   color: rgb(226, 43, 186);
 }
 
 .fimtext2{
 
     margin-top: -8% ;
     width: 65%;
-    background-color: #fa4be3;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .fimopiniao3{
     margin-top: -2% ;
     margin-left: 82%;
     width: 25%;
-    background-color: #e0fa4b;
+   color: blueviolet;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .fimtext3{
 
-    background-color: #113f3d;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
@@ -523,26 +529,3 @@ a {
     border-style: double;
 }
 
-.Rob_aside_filial {
-    width: 22%;
-    padding-right: 15px;
-    margin-right: 5px;
-    margin-top: 20px;
-    float: right;
-    font-style: Normal;
-    background-color: rgb(77, 70, 99);
-    border: rgb(45, 6, 95);
-}
-
-.Rob_h1 {
-    /*text-shadow: 0.1em 0.1em 0.2em black;               */
-    /*Esfumaçãdo*/
-    /*text-shadow: 0.1em 0.1em 0.05em #333;               */
-    /* sombra */
-    /*color: white; text-shadow: black 0.1em 0.1em 0.2em; */
-    /* Branco com sombra*/
-    /*text-shadow: -2px -2px rgb(230, 35, 22), 2px 2px rgb(29, 10, 112);         */
-    /* Alto relevo*/
-    text-shadow: 2px 2px white, -2px -2px #444;
-    /* Baixo relevo*/
-}
